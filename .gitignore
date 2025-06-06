@@ -1,4 +1,4 @@
-# Ignore VS Code config and obj folder:
+    # Ignore VS Code config and obj folder:
 .vscode/
 obj/
 

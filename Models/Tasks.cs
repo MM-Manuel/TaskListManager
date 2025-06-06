@@ -15,9 +15,10 @@ public class Tareas
     [JsonPropertyName("Priority")]
     public string priority { get; set; } = "";
     [JsonPropertyName("Container")]
-    public string container { get; set; } = ""; //esto si lo quisieramos hacer bien hariamos un id en vez de una string, pero que no lo hagmao digog
+    public string container { get; set; } = "";
     [JsonIgnore]
-    public List<string> priorities { get; set; } = ["High", "Medium", "Low", "NateHiggers"];
+    public List<string> priorities { get; set; } = ["High", "Medium", "Low"]; 
+    //You can add as many priorities as you want in order from the most important to the least important
 }
 
 public class Serializer
