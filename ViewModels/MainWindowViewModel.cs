@@ -7,7 +7,6 @@ using System;
 
 namespace Importy.ViewModels;
 
-
 public partial class MainWindowViewModel : ViewModelBase
 {
     [ObservableProperty]
